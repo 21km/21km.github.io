@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+/* Containers */
+.container {
+    max-width: 600px;
+}
+.top-banner {
+    width: 100%;
+    background-color: #e2c747;
+    padding: 20px 10px;
+}
+.section {
+    width: 100%;
+    min-height: 300px;
+    margin-top: 8px;
+}
+.photo-section {
+    background-image: url("images/sylt-4544180.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.photo-section .texte {
+    width: 60%;
+}
+/* elements */
+.logo {
+    max-width: 300px;
+}
+.text-white {
+    color: white;
+}
+.title-bar {
+    background-color: #e2c747;
+    color: white;
+    padding: 6px 20px;
+}
+.breadcrumbs {
+    width: 50%;
+}
+.section-image {
+    max-width: 20%;
+    max-height: 20%;
+    border: thin solid black;
+}
+.yellow-line {
+    border-top: 3px solid #e2c747;
+    width: 70%;
+    margin: 10px 4px;
+}
+.footer {
+    width: 100%;
+}
+/* modifiers */
+.smoked-background {
+    background-color: rgba(0, 0, 0, 20%);
+    padding: 6px 20px;
+}
+.bold {
+    font-weight: bold;
+}
+.text-sm {
+    font-size: smaller;
+}
+.black-link {
+    color: black;
+}

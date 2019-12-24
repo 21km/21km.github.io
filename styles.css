@@ -41,9 +41,10 @@ a:hover {
 .photo-section .texte {
     width: 60%;
 }
+
 /* elements */
 .logo {
-    max-width: 300px;
+    max-width: 200px;
 }
 .text-white {
     color: white;
@@ -69,6 +70,18 @@ a:hover {
 .footer {
     width: 100%;
 }
+.social-logo {
+    width: 1em;
+    height: 1em;
+    filter: invert(1);
+}
+.footer-center {
+    width: 100%;
+    text-align: left;
+}
+.footer-right {
+    width: 24em;
+}
 /* modifiers */
 .smoked-background {
     background-color: rgba(0, 0, 0, 20%);
@@ -82,4 +95,8 @@ a:hover {
 }
 a.black-link {
     color: black;
+}
+.logo-sm {
+    width: 100px;
+    margin: 0 3em auto 1em;
 }

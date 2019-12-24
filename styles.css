@@ -3,19 +3,35 @@
 body {
     font-family: 'Quicksand', sans-serif;
 }
+a {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+}
 /* Containers */
 .container {
     max-width: 600px;
 }
 .top-banner {
-    width: 100%;
+    width: 100vw;
+    height: 22vh;
     background-color: #e2c747;
     padding: 20px 10px;
+    position: fixed;
+    top: 0vh; left: 0;
 }
 .section {
     width: 100%;
+    height: 76vh;
     min-height: 300px;
-    margin-top: 8px;
+    margin-top: 2vh;
+}
+.top-spacer {
+    height: 22vh;
 }
 .photo-section {
     background-image: url("images/sylt-4544180.jpg");
@@ -64,6 +80,6 @@ body {
 .text-sm {
     font-size: smaller;
 }
-.black-link {
+a.black-link {
     color: black;
 }

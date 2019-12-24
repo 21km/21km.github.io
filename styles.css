@@ -61,6 +61,7 @@ a:hover {
     border: thin solid black;
     width: 110px;
     margin: auto 4%;
+    opacity: 80%;
 }
 .yellow-line {
     border-top: 3px solid #e2c747;

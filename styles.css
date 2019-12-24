@@ -57,9 +57,9 @@ a:hover {
     width: 50%;
 }
 .section-image {
-    max-width: 20%;
-    max-height: 20%;
     border: thin solid black;
+    width: 110px;
+    margin: auto 4%;
 }
 .yellow-line {
     border-top: 3px solid #e2c747;

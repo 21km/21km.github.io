@@ -23,6 +23,7 @@ a:hover {
     padding: 20px 10px;
     position: fixed;
     top: 0vh; left: 0;
+    z-index: 1000;
 }
 .section {
     width: 100%;
@@ -36,10 +37,14 @@ a:hover {
 .photo-section {
     background-image: url("images/sylt-4544180.jpg");
     background-size: cover;
-    height: 500px;
+    height: 70vh;
+    width: 100%;
 }
 .photo-section .texte {
     width: 60%;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 1em;
+    padding: 1em;
 }
 
 /* elements */
@@ -94,10 +99,13 @@ a:hover {
 .text-sm {
     font-size: smaller;
 }
+.text-xs {
+    font-size: x-small;
+}
 a.black-link {
     color: black;
 }
 .logo-sm {
     width: 100px;
-    margin: 0 3em auto 1em;
+    margin: 0 6% 0 2%;
 }
